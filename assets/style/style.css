@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #f2f3fb;
+  background: #eed6dd;
   width: 100%;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 a {
-  color: #343b45;
+  color: #9c587a;
   text-decoration: none;
 }
 ul {
@@ -38,30 +38,31 @@ ul {
 
 /*****Picture and name*****/
 .picture {
-  height: 9rem;
-  width: 9rem;
+  height: 12rem;
+  width: 12rem;
   background-color: #52c8ff;
   border-radius: 100%;
   overflow: hidden;
 }
 .picture img {
-  height: 9rem;
-  width: 9rem;
+  height: 12rem;
+  width: 12rem;
 }
 .name {
   padding: 1rem 0;
   font-size: 2rem;
   letter-spacing: 1.5px;
   font-weight: bold;
-  color: #00445A;
+  color: #9c587a;
 }
 
 /*****Few personal details*****/
 .info-box {
+  color: #9c587a;
   width: 100%;
   background-color: #f5f5fc;
   border-radius: 0.5rem;
-  border: 2px solid #343b45;
+  border: 2px solid #9c587a;
   padding: 1rem 0;
   height: 3.45rem;
   overflow: hidden;
@@ -162,7 +163,7 @@ ul {
   margin: 1rem 0;
   border-radius: 0.5rem;
   backdrop-filter: blur(10px);
-  border: 2px solid #343b45;
+  border: 2px solid #9c587a;
   background-color: #f5f5fc;
   padding: 1rem 0;
   transition: all 0.3s;
@@ -173,7 +174,7 @@ ul {
 }
 .social-media div:hover {
   color: #FFFFFF;
-  background-color: #343b45;
+  background-color: #9c587a;
 }
 
 /* Add zoom in up effect in social media button*/
